@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Darryl Perry</string>
+	<key>Builder Version</key>
+	<string>14606.3.4</string>
+	<key>CFBundleDisplayName</key>
+	<string>SearchMi</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.darperry99</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>index.html</string>
+		<key>Menus</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>SearchMiMenu</string>
+				<key>Menu Items</key>
+				<array>
+					<dict>
+						<key>Command</key>
+						<string>error</string>
+						<key>Identifier</key>
+						<string>error</string>
+						<key>Title</key>
+						<string>Could not load MacSearch search engine list</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>SearchMiButton</string>
+				<key>Image</key>
+				<string>toolbar.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>SearchMi</string>
+				<key>Menu</key>
+				<string>SearchMiMenu</string>
+				<key>Palette Label</key>
+				<string>SearchMi</string>
+				<key>Tool Tip</key>
+				<string>SearchMi</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Use a custom search engine in the Safari address bar, or disable searches completely</string>
+	<key>DeveloperIdentifier</key>
+	<string>76NLHS5G74</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Website</key>
+	<string>https://darperry99.github.io/</string>
+</dict>
+</plist>
